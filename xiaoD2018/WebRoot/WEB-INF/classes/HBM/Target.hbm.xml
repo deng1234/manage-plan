@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN" 
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping package="VO">
+   <class name="Target" table="target">
+      <id name="targetID" type="int" column="targetID">
+         <generator class="native"/>
+      </id>
+      <property name="description" column="description" type="string"/>
+      <property name="period" column="period" type="string"/>
+      <property name="postTime" column="postTime" type="date"/>
+   </class>
+</hibernate-mapping>
