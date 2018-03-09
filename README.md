@@ -30,8 +30,9 @@ npm run build
 ## 项目目录
 
 ```
-Goth
+xiaoD2018
 |
+├── xiaoD2018                          #java代码
 ├── src                                
 |  ├── components                            
 |     ├── content                       
